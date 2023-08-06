@@ -30,18 +30,14 @@ nav {
   }
 }
 
-// -----------------------------
-// Cheeses Section
-// -----------------------------
 
-// Container for the cheeses grid
 .cheeses-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); // Two columns with equal width
-  gap: 20px; // Space between the cheeses
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
 }
 
-// Individual cheese item
+
 .chai {
   @include white-text-black-bg;
   padding: 20px;
@@ -53,10 +49,10 @@ nav {
   }
 
   img {
-    width: 100%; // To ensure the images have the same width
-    height: auto; // Maintain aspect ratio
-    max-height: 200px; // Adjust the height based on your preference
-    object-fit: contain; // Display the entire image without cropping
+    width: 100%; 
+    height: auto; 
+    max-height: 200px; 
+    object-fit: contain; 
     border-radius: 5px;
     margin-bottom: 10px;
   }
